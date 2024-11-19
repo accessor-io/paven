@@ -1,0 +1,49 @@
+{
+  "name": "paven",
+  "version": "1.0.0",
+  "description": "Paven - A Modern React Application",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.x",
+    "framer-motion": "^10.x",
+    "prop-types": "^15.8.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.x",
+    "eslint": "^8.x",
+    "eslint-plugin-react": "^7.x",
+    "eslint-plugin-react-hooks": "^4.x",
+    "rimraf": "^5.x",
+    "vitest": "^1.x"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accessor-io/paven.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "paven",
+    "accessor-io"
+  ],
+  "author": "accessor-io",
+  "bugs": {
+    "url": "https://github.com/accessor-io/paven/issues"
+  },
+  "homepage": "https://github.com/accessor-io/paven#readme",
+  "license": "MIT"
+}
